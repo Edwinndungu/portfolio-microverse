@@ -1,0 +1,15 @@
+.projects{
+    display: flex;
+}
+#welcome-section {
+    background-image: url(welcome-img.jpg);
+    height: 100vh;
+}
+@media(max-width: 786px){
+    .projects {
+        flex-direction: column;
+    }
+    .card {
+        margin: 3% 0;
+    }
+}
